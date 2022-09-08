@@ -2,8 +2,10 @@ import React from 'react';
 import Header from '../../components/Header';
 import Section from '../../components/Section';
 
-const Home = () => (
-    <>
+const Home = () => {
+   return ( 
+   
+   <>
         
         <body>
     
@@ -18,7 +20,7 @@ const Home = () => (
         </body>
         
     </>
-);
+)};
 
 
 export default Home;
