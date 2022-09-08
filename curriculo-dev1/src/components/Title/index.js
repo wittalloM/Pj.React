@@ -1,7 +1,7 @@
 import React from 'react';
-import './Title/title.css';
+import { SectionHeading } from './styles';
 
 
-const Title = ({texto}) => <h1>{texto}</h1>;
+const Title = ({texto}) => <SectionHeading>{texto}</SectionHeading>;
 
 export default Title;

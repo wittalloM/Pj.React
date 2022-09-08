@@ -1,20 +1,31 @@
 import React from 'react';
-import '../Header/header.css';
+import { BrowserRouter } from 'react-router-dom';
 
-const Header = () => (
-    <header>
-        <nav classname="navegação">
-            <div classname="perfil">
-                <img src="https://via.placeholder.com/200px200" alt="foto.perfil" />
-            </div>
-            <ul>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#experience">Experiência</a></li>
-                <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#projects">Projetos</a></li>
-            </ul>
-        </nav>
-    </header>
-)
+import { Headers, Itens, Li, Navbar, Profile, ProfileImg, Ul } from './styles';
 
+const Header = ({ img }) => (
+  <BrowserRouter>
+    <Headers>
+      <Navbar id="navbar">
+        <Profile>
+          <ProfileImg src={img} alt="profile_picture" />
+        </Profile>
+        <Ul>
+          <Li>
+            <Itens to="/#about">Sobre</Itens>
+          </Li>
+          <Li>
+            <Itens to="/#experience">Experiência</Itens>
+          </Li>
+          <Li>
+            <Itens to="/#skills">Habilidades</Itens>
+          </Li>
+          <Li>
+            <Itens to="/#projects">Projetos</Itens>
+          </Li>
+        </Ul>
+      </Navbar>
+    </Headers>
+  </BrowserRouter>
+);
 export default Header;

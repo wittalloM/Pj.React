@@ -9,7 +9,7 @@ const Home = () => {
         
         <body>
     
-            <Header />
+            <Header  />
     
             <main>
     
@@ -20,7 +20,8 @@ const Home = () => {
         </body>
         
     </>
-)};
+    );
+};
 
 
 export default Home;

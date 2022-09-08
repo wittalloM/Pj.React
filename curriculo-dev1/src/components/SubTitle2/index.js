@@ -1,8 +1,11 @@
 import React from 'react';
-import '../SubTitle2/subtile2.css';
+import { SectionSubTitle2 } from './styles';
 
 
-const Subtitle2 = ({texto}) => <h3>{texto}</h3>;
+const SubTitle2 = ({texto}) => (
+    <SectionSubTitle2>{SubTitle2
+    }</SectionSubTitle2>
+);
 
 
-export default Subtitle2;
+export default SubTitle2;
