@@ -1,26 +1,29 @@
-import React from 'react';
+import React, {useState}from 'react';
 import Header from '../../components/Header';
 import Section from '../../components/Section';
+import FakeAPI from '../../Service/dados.json';
 
 const Home = () => {
-   return ( 
+   
+   const [dados] = useState(FakeAPI);
+    return ( 
    
    <>
         
         <body>
     
-            <Header  />
+            <Header img={dados.profile.img} />
     
             <main>
     
-            <Section />
+            <Section profile={dados.profile} />
     
             </main>
     
         </body>
         
     </>
-    );
+  );
 };
 
 
