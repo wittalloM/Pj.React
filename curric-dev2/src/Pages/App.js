@@ -1,4 +1,5 @@
 import React from "react";
+import SubTitle from "../SubTitle";
 import Title from "../Title";
 
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
   <body>
   <p>No começo e sempre fácil</p>
  <Title>né</Title>
+ <SubTitle texto='Más nunca é fácil' />
   </body>
 
 
