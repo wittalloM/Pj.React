@@ -37,7 +37,7 @@ const Section = ({ profile }) => (
     </Sections>
     <Sections id="skills">
       <Title texto="Habilidades" />
-      <SubTitle texto="Em desenvolvimento ACQA" />
+     <info>{profile.habilidades}</info>
     </Sections>
     <Sections id="projects">
       <Title texto="Projetos" />

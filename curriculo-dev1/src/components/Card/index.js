@@ -6,7 +6,7 @@ import { Highlight, Info } from './styles';
 const Card = ({ SubTitle, SubTitle2, date, info }) => (
   <div>
     <SubTitle texto={SubTitle} />
-    <SubTitleH3 subTitleH3={SubTitle2} />
+    <SubTitle2 subTitleH3={SubTitle2} />
     <Info>
       <Highlight> {date}</Highlight>
     </Info>

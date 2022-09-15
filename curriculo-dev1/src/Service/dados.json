@@ -7,28 +7,20 @@
         "estado": "GO",
         "contato": "(62) 9 9836-1512",
         "email": "wittallomarcos@gmail.com",
-        "biografia": "Olá, meu nome é Wittallo Marcos, tenho 25 anos e sou um estudante de Análise e Dev de Sistemas.
-        Sempre me interessei pela área de tecnologia, mesmo não dispondode recursos suficientes para
-        estar sempre atualizado, porém estou sempre atento as novas tecnologias e muito bem disposto 
-        a aprendar a usá-las, não tenho uma vasta expeiência más me considero apto para aprender qualquer
-        linguagem ou framework.",
+        "biografia": "Olá meu nome é Wittallo Marcos, tenho 25 anos e sou um estudante de\n Análise e Dev de Sistemas. Sempre me interessei pela área de tecnologia mesmo não dispondo de recursos suficientes\n para estar sempre atualizado porém estou sempre atento as novas tecnologias e muito bem disposto  a aprendar a usá-las não tenho uma vasta expeiência más me considero apto para aprender qualquer linguagem ou framework",
         "experiencia": [
             {
                 "id": 1,
                 "cargo": "Aux.Logística",
                 "empresa": "A.A Fernandes",
                 "periodo": "Jan 2022 - Atual",
-                "atividades": " Aux.Escritório2"
+                "atividades": "Aux.Escritório2"
 
-            },
-            {
-                "id": 2,
-                "cargo": "Aux. Serv. Gerais",
-                "empresa": "NovoMundo",
-                "periodo": "Out 2020 - Nov 2021",
-                "atividades": "Auxiliar na limpeza da loja"
-            }
-        ]
+            } 
+        ],
+           
+        "habilidades": "*Proatividade \n*Trabalho em equipe \n*Resiliência \n*Disponibilidade de Horário",
+        "projetos": ""
     
     }
 }
