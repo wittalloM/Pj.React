@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-
 import { Headers, Itens, Li, Navbar, Profile, ProfileImg, Ul } from './styles';
 
 const Header = ({ img }) => (
@@ -22,6 +21,9 @@ const Header = ({ img }) => (
           </Li>
           <Li>
             <Itens to="/#projects">Projetos</Itens>
+          </Li>
+          <Li>
+          <Itens to="https://github.com/wittalloM">Perfil no GitHub</Itens>
           </Li>
         </Ul>
       </Navbar>

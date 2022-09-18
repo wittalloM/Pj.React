@@ -1,10 +1,12 @@
 import React from "react";
 import Card from '../Card/Index';
 import { Highlight, Info } from '../Card/styles';
+import { Itens } from "../Header/styles";
 import SubTitle from '../SubTitle/Index';
 import Title from '../Title/Index';
 import { SectionHeading } from '../Title/styles';
 import { Sections } from './styles';
+import { AiOutlineGithub } from "react-icons";
 
 const Section = ({ profile }) => (
   <>
@@ -20,8 +22,11 @@ const Section = ({ profile }) => (
       <p>{profile.biografia}</p>
       <div id="contacts">
         <Title texto="Contatos" />
-        <SubTitle texto="Em desenvolvimento ACQA" />
-      </div>
+        <SubTitle texto="GitHub Profile" />
+        <button>
+          <AiOutlineGithub size={22} color='black' />
+        </button>
+        </div>
     </Sections>
     <Sections id="experience">
       <Title texto="Experiência" />
@@ -41,7 +46,8 @@ const Section = ({ profile }) => (
     </Sections>
     <Sections id="projects">
       <Title texto="Projetos" />
-      <SubTitle texto="Em desenvolvimento ACQA" />
+      <info>{profile.projetos}</info>
+      <Itens to="https://github.com/wittalloM"></Itens>
     </Sections>
   </>
 );

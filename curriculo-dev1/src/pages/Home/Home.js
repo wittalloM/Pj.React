@@ -1,6 +1,6 @@
-import React, {useState}from 'react';
-import Header from '../../components/Header';
-import Section from '../../components/Section';
+import React, {useState} from 'react';
+import Header from '../../components/Header/Index';
+import Section from '../../components/Section/Index';
 import FakeAPI from '../../Service/dados.json';
 
 const Home = () => {
@@ -8,9 +8,7 @@ const Home = () => {
    const [dados] = useState(FakeAPI);
     return ( 
    
-   <>
-        
-        <body>
+       <div>  
     
             <Header img={dados.profile.img} />
     
@@ -20,9 +18,9 @@ const Home = () => {
     
             </main>
     
-        </body>
         
-    </>
+      </div>    
+    
   );
 };
 
