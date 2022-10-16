@@ -1,0 +1,16 @@
+.cabecalho {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 40px;
+    background-image: -o-linear-gradient(rgb(125, 168, 144), rgb(16, 16, 24), rgb(95, 117, 95));
+    border-radius: 18px;
+}
+
+.cabecalho img {
+    height: max-content;
+    size: 80%;
+    margin: 2px;
+}

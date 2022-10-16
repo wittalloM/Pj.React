@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { render } from 'react-dom';
 import { FiSearch } from 'react-icons/fi';
 import api from './services/api';
+import './Estilo.css';
 
 function App() {
     
