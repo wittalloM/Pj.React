@@ -1,29 +1,29 @@
 import React from 'react'
 
 
-import '../components/css/Header.css'
+import '../components/css/Navbar.css'
 import cartonarte from '../images/Cartoon arte.png'
-import Dados from '../data/Dados.jsom'
 
-function Header(perfil) {
+
+function Navbar(perfil) {
   return (
     <div>
-    <nav className='cabecalho'>
+    <navbar className='cabecalho'>
        <ul>
        <li>
             <img src={cartonarte} alt='Imagem do Perfil' />
         </li>
-        <li>
+        <li><bold>
           sobrenome
-        </li>
+          </bold></li>
         <li>
-          {Dados.perfil.nome}
+          <bold>Experiência</bold>
         </li>
        </ul>
-    </nav>
+    </navbar>
   
   </div>
   )
 }
 
-export default Header
+export default Navbar

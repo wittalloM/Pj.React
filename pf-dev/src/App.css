@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 .App {
   background-color: rgb(9, 10, 14);
   color: aliceblue;
   display: flex;
   margin: 2rem;
+  font-family: 'Inter', sans-serif;
 
 }
 
+.Header {
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+  height: 100px;
+  width: auto;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}

@@ -1,8 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 body {
     background-color:  rgb(9, 10, 14);
     color: aliceblue;
+    font-family: 'Inter', sans-serif;
     margin-top: 2rem;
     margin-bottom: 2rem;
+   
+    
+}
+
+
+
+
+footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
 }

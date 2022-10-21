@@ -4,7 +4,7 @@
     flex-direction: row;
     color: aliceblue;
     padding: 1rem;
-    justify-content: space-between;
+    justify-content: space-around;
     width: auto;
     height: 10%;
     align-items: center;
@@ -19,12 +19,16 @@
     justify-content: space-between;
 }
 
-.lst_cntts:hover {
+.lst_cntts:hover ul {
     cursor: pointer;
     transition: 0.4;
 }
 
 .lst_cntts button {
     background-color: rgb(40, 70, 60);
-    
+    border-radius: 11px;
+    padding: 3px 2px 2px;
+    cursor: pointer;
+    transition: 0.4;
+
 }

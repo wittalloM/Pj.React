@@ -6,10 +6,16 @@ import '../components/css/Rodape.css';
 
 
 function Rodape(props) {
+
+function redirec() {
+  window.alert("Indicando Git");
+
+}
+
   return (
     <div className='contato'>
         <ul className='lst_cntts'>
-         <button>
+         <button onClick={redirec}>
           <RiGithubLine size={25} color='black' />
           </button>
          <button>
