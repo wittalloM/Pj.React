@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Dados from '../data/Dados.json'
 import {RiGithubLine, RiInstagramLine} from 'react-icons/ri'
 
 import '../components/css/Rodape.css';
@@ -7,26 +8,28 @@ import '../components/css/Rodape.css';
 
 function Rodape(props) {
 
-function redirec() {
-  window.alert("Indicando Git");
+function redirec(value) {
 
-}
+  window.alert('Redirecionando...' + Dados.redes.git);
+  console.log(Dados.redes.git)
+  }
 
   return (
     <div className='contato'>
-        <ul className='lst_cntts'>
-         <button onClick={redirec}>
-          <RiGithubLine size={25} color='black' />
-          </button>
-         <button>
-          <RiInstagramLine size={28} color='black' />
-           </button>   
+        <div>
+        <p>{props.texto}</p>
+        </div>
+        <div className='icons'>
+        <ul>
+        <button onClick={redirec}>
+        <RiGithubLine size={30} value='GitHub' color='black' />
+        </button>
+        <button onClick={redirec}>
+        <RiInstagramLine size={30} value='Instagran' color='black' />
+        </button>   
         </ul>
-          <p>
-            <spam>
-            {props.texto}
-            </spam>
-         </p>
+        </div>
+    
     </div>
   )
 }

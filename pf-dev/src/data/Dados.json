@@ -1,0 +1,16 @@
+{
+    "perfil": {
+        "bio": "Como proficional, me considero muito proativo e determinado",
+        "nome": "Wittallo M",
+        "sobrenome": "A.Silva",
+        "idade": "25 anos"
+    },
+    "redes": {
+        "git": "https://github.com/wittalloM", 
+        "instagram": "https://instagran.com/witt4llo"
+    },
+    "contato": {
+        "email": "wittallomarcos@gmail.com",
+        "Localização": "Inhumas - GO"
+    }
+}

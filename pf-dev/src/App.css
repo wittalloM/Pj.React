@@ -4,22 +4,17 @@
   background-color: rgb(9, 10, 14);
   color: aliceblue;
   display: flex;
-  margin: 2rem;
+  margin: 1rem;
   font-family: 'Inter', sans-serif;
 
 }
 
 .Header {
+  height: fit-content;
+  width: auto;
   display:flex;
   flex-direction: row;
-  align-content: center;
-  height: 100px;
-  width: auto;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.footer {
-  display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}

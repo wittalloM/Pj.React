@@ -1,6 +1,7 @@
+import React from 'react';
 
 import './App.css';
-import React from 'react';
+
 
 import Titulo from './componentsUI/Titulo';
 import Rodape from './components/Rodape.js';
@@ -9,18 +10,22 @@ import ArquivoTeste1 from './components/ArquivoTeste1.js'
 
 function App() {
   return (
-    <div className="App">
-     
-      <main>
+    <>
+      <header>
       <Navbar className="Header" />
-      <Titulo texto='E lá vamos nós'/>
+      </header>
+      <br></br>
+      
+      <main>
+      <Titulo texto='[ Curriculo Dev ]'/>
       <ArquivoTeste1 />
       </main>
       <br></br>
-        <footer>
+      
+      <footer>
         <Rodape className="footer" texto="Redes"/>
         </footer>
-     </div>
+    </>     
   );
 }
 

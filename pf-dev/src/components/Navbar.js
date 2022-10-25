@@ -1,11 +1,11 @@
 import React from 'react'
-
-
 import '../components/css/Navbar.css'
+import Dados from '../data/Dados.json'
+
 import cartonarte from '../images/Cartoon arte.png'
 
 
-function Navbar(perfil) {
+function Navbar() {
   return (
     <div>
     <navbar className='cabecalho'>
@@ -13,12 +13,9 @@ function Navbar(perfil) {
        <li>
             <img src={cartonarte} alt='Imagem do Perfil' />
         </li>
-        <li><bold>
-          sobrenome
-          </bold></li>
-        <li>
-          <bold>Experiência</bold>
-        </li>
+        <li>{Dados.perfil.nome}</li>
+        <li>Home</li>
+        <li>Experiência</li>
        </ul>
     </navbar>
   
