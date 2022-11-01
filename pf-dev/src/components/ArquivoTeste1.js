@@ -14,7 +14,7 @@ function ArquivoTeste1() {
         setNomeuser(nomeuser)
         setEmail(email)
         console.log("Está funcionando");
-        console.log('Dados do cidadão: ' + nomeuser + ', ' + email)
+        console.log('Dados do cidadão: ' + nomeuser + ' , ' + email)
         cadastro_pos()
        
         }

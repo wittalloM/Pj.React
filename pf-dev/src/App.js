@@ -7,6 +7,7 @@ import Titulo from './componentsUI/Titulo';
 import Rodape from './components/Rodape.js';
 import Navbar from './components/Navbar';
 import ArquivoTeste1 from './components/ArquivoTeste1.js'
+import Home  from './components/Home'
 
 function App() {
   return (
@@ -14,10 +15,10 @@ function App() {
       <header>
       <Navbar className="Header" />
       </header>
-      <br></br>
-      
+    
       <main>
       <Titulo texto='[ Curriculo Dev ]'/>
+      <Home />
       <ArquivoTeste1 />
       </main>
       <br></br>
