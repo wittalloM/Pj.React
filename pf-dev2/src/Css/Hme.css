@@ -1,0 +1,19 @@
+.box1{
+    display: flex;
+    text-align: center;
+    border: solid 3px #08546C;
+    align-items: center;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.box2{
+    color: #08546C;
+    text-transform: uppercase;
+    text-align: center;
+    border: solid 3px #08546C;
+    padding: 1rem 1rem;
+
+}
+
+
