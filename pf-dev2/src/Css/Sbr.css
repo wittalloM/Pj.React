@@ -1,0 +1,26 @@
+.Contato {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    color: #08546C;
+    border-bottom: #08546C 3px solid;
+    padding: 1.2rem 1.2rem;
+} 
+
+.Redes {
+    display: flex;
+    font-size: 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 1rem;
+
+}
+
+button {
+    color: #08546C;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+   
+}
