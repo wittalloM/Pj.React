@@ -2,25 +2,51 @@
     display: flex;
     flex-direction: column;
     font-size: 1rem;
-    color: #08546C;
-    border-bottom: #08546C 3px solid;
+    color: #BD9060;
+    border-bottom:#BD9060 3px solid;
     padding: 1.2rem 1.2rem;
 } 
 
-.Redes {
+.itemsbr {
     display: flex;
     font-size: 1rem;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
     padding: 1rem 1rem;
+    text-align:center;
 
 }
 
-button {
-    color: #08546C;
-    padding: 1rem 1rem;
+.feedback, form {
     display: flex;
+    flex-direction: column;
     align-items: center;
-   
+    background-color: rgb(168, 147, 102);
+    margin-top: 0.8rem;
+}
+
+input {
+    border-radius: 18px;
+    color: rgb(250, 248, 248);
+    height: 28px;
+    border: #BD9060 solid 5px;
+    background-color: black;
+}
+
+button {
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #BD9060;
+    border-radius: 18px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: black;
+    color: #8f6c46;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 18px;
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import {FiGithub} from 'react-icons/fi'
 import {BsWhatsapp} from 'react-icons/bs'
 import {HiOutlineMailOpen} from 'react-icons/hi'
 
@@ -11,15 +10,16 @@ function Sobre() {
    <>
     <div className='Contato'>
         <h3>Contato/Acesse:</h3><br></br>
-        <h3><BsWhatsapp size={25} />Nº 62 9 98361512</h3>
-        <h3><HiOutlineMailOpen size={25} />wittallomarcos@gmail.com</h3>
+        <h3 className='itemsbr'><BsWhatsapp size={25} />Nº 62 9 98361512</h3>
+        <h3 className='itemsbr'><HiOutlineMailOpen size={25} />wittallomarcos@gmail.com</h3>
     </div>
-    <div className='Redes'>
-        <p>GitHub</p>        
-            
-        <button FiGithub size ={35}>
-            <FiGithub size ={75} />
-        </button>
+    <div className='feedback'>
+      <form>
+        <h2>Nos mande uma mensagem.</h2>
+        <p>Escreva o seu feedback:</p>
+        <input type="text" size={65}/>
+        <button>Enviar Feedback</button>
+      </form>
     </div>
    </>
 

@@ -1,0 +1,39 @@
+
+.Header1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: ;
+}
+
+.titulo {
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    color: cadetblue;
+    font-size: 4rem;
+
+}
+
+.naveg1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: cadetblue;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.itens {
+    display: flex;
+    padding-left: 1rem;
+
+}
+
+.itens:any-link {
+    text-decoration: none;
+    text-align: center;
+
+}

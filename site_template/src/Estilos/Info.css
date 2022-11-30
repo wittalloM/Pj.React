@@ -1,0 +1,12 @@
+.box1-sobre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(#13293D, #247BA0);
+    padding: 2rem;
+}
+
+.box1-sobre:h3, p {
+    font-size: 1.4rem;
+    font-family: 'Anek Bangla'sans-serif;
+}

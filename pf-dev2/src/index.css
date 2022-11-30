@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
   margin: 0;
-  background-color: #17181D;
+  background-color: black;
   color: aliceblue;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Raleway', sans-serif;
 
 }
 
-button {
-  background-image: linear-gradient(#aeb5b9 90%,  #273748 100%);
-  display: flex;
-}

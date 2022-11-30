@@ -1,0 +1,35 @@
+
+.box1 {
+
+    margin-bottom: 1rem;
+    width: fit-content;
+    border-top: 3px solid #247BA0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.box1:h3 {
+    color: #247BA0;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+}
+
+.box-icones {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 1rem 1rem;
+    
+}
+
+.box-icones:hover {
+    background-color: #247BA0;
+    color: black;
+    transition: 0.2s;
+    border-radius: 19px;
+
+}
+

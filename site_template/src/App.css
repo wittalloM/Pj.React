@@ -1,0 +1,50 @@
+.App {
+  background-color: #13293D;
+  color: #e8F1F2;
+
+}
+
+.cabecalho {
+  display: flex;
+  background-image: linear-gradient(#13293D, #247BA0);
+}
+
+.Titulo {
+  display: flex;
+  align-items: flex-start;
+  font-size: 2rem;
+  padding: 1rem;
+
+}
+
+.B-naveg {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+
+}
+
+.itens {
+  padding: 0.5rem;
+  border: solid 3px #13293D;
+  border-radius: 20px;
+
+}
+
+.itens:any-link {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 0.8rem;
+
+}
+
+.itens:hover {
+  color: #141414;
+  background-color: #aeafb1;
+  transition: 0.3s;
+}
+
+
+
+

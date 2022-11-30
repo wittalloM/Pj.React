@@ -1,0 +1,19 @@
+.Contatos {
+    display: flex;
+    background-color: #247BA0;
+    color: #E8F1F2;
+
+}
+
+.Form_feedback_user{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.Form_feedback_user:input {
+    border: solid 4px #247BA0;
+    padding: 1rem;
+
+}
