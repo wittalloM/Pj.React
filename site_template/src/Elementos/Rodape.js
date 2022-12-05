@@ -7,11 +7,11 @@ function Rodape() {
   return (
     <div className='box1'>
 
-        <h3>Conatos/Sobre</h3>
+        <h3>Contatos/Sobre</h3>
         <div className='box-icones'>
-            <FaGithubAlt size={28} color='black' value='GitHub' />
-            <FaInstagram size={28} color='black' value='Instagram' />
-            <FaEnvelopeOpenText size={28} color='black' value='Enviar Email' />
+            <FaGithubAlt className='icon-rodape' size={28} color='white' value='GitHub' />
+            <FaInstagram className='icon-rodape' size={28} color='white' value='Instagram' />
+            <FaEnvelopeOpenText className='icon-rodape' size={28} color='white' value='Enviar Email' />
             
         </div>
 

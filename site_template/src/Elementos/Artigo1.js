@@ -2,6 +2,8 @@ import React from 'react'
 
 import '../Estilos/Artigo1.css'
 
+
+
 function Artigo1() {
   return (
     <div className='cont-1'>

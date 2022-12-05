@@ -37,6 +37,7 @@ function App() {
 
         <Artigo1 />
         <Rodape />
+        
         </div>
       </>
       
@@ -45,4 +46,4 @@ function App() {
   )
 }
 
-export default App;
+export default App

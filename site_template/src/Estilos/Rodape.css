@@ -1,8 +1,8 @@
 
 .box1 {
-
-    margin-bottom: 1rem;
-    width: fit-content;
+    
+    margin: 3rem 1rem;
+    padding-top: 0.6rem;
     border-top: 3px solid #247BA0;
     display: flex;
     flex-direction: row;
@@ -14,22 +14,30 @@
 .box1:h3 {
     color: #247BA0;
     font-size: 1rem;
-    padding: 1rem 2rem;
+    padding: 0.7rem;
 }
 
 .box-icones {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: right;
-    padding: 1rem 1rem;
+    padding-left: 0.8rem;
     
 }
 
-.box-icones:hover {
+
+
+.icon-rodape {
+    color: black;
+    padding: 0.4rem;
+
+}
+
+.icon-rodape:hover {
     background-color: #247BA0;
     color: black;
-    transition: 0.2s;
-    border-radius: 19px;
-
+    transition: 0.1s;
+    border-radius: 18px;
 }
 

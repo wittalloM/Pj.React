@@ -13,14 +13,14 @@ function Contatos() {
 
             <div className='Form_feedback_user'>
 
-        <form>
+                  <form>
 
-        <input type='text' value='Nome_user' />
-        <input type='email' value='Email_user' />
-        <input type='text' value='mensagem_user' />
+                  <input type='text' value='Nome_user' />
+                  <input type='email' value='Email_user' />
+                  <input type='text' value='mensagem_user' />
 
 
-        </form> 
+                  </form> 
             </div>
             </div>
 </>
