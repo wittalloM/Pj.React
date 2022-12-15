@@ -1,0 +1,36 @@
+.banneretxt {
+    display: flex;
+    width: auto;
+    height: 550px;
+    padding: 1rem;
+    margin-top: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 18px;
+    background-image: url('../imagens/Foto-perfil\ \(site_template\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+
+.image-banner img {
+    justify-self: flex-start;
+    width: 350px;
+    height: 450px;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+
+.texto {
+    display: flex;
+    padding: 1rem;
+    align-self: flex-start;
+    background-color:#044346;
+    border-radius: 18px;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: right;
+    text-shadow: 8px;
+   
+}

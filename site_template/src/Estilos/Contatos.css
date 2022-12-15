@@ -1,33 +1,89 @@
 .Contatos {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #292C35;
     border-radius: 18px;
-    margin: 0.5rem 0.8rem;
+    padding: 1rem;
     margin-top: 2rem;
 }
 
-.Contatos:h2 {
-    font-size: 1rem;
+.Contatos h2 {
+    font-size: 1.5rem;
     color: #247BA0;
     padding: 1rem;
+    text-align: left;
+}
+
+/*div formulário*/
+
+
+
+.Form_feedback_user form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 1rem;
+
+}
+
+.Form_feedback_user p {
+    display: flex;
+    align-items: flex-start;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    font-family: 'Anek Bangla', sans-serif;
+}
+
+/*inputs do Formulário*/
+.form-item {
+    border: solid 1px #247BA0;
+    padding: 1rem;
+    color: #eaebec;
+    background-color: #232429;
+    border-radius: 18px;
+    margin: 0.9rem
+
+}
+
+.botao {
+    padding: 0.5rem 3rem;
+}
+
+.cont-icon {
+    margin-bottom: 1.6rem;
+}
+
+.icons1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
-.Form_feedback_user{
+.icons2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 
-.Form_feedback_user:form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.icons2 h3 :any-link {
+    color: aliceblue;
+    text-decoration: none;
 }
 
-.Form_feedback_user:input {
-    border: solid 4px #247BA0;
-    padding: 1rem;
-    color: #292C35;
-
+.icons2 h3 :hover{
+    border-bottom: #247BA0 2px solid;
+    transition: 0.2s;
 }
+
+.cont-icon{
+    margin-left: 0.5rem;
+    color: white;
+    margin-top: 1.6rem;
+    padding-right: 2rem;
+}
+

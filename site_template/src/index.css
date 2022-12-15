@@ -1,8 +1,33 @@
 body {
-  
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 1.5rem;
   background-color: #17181D;
   color: aliceblue;
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.botao {
+  display: flex;
+  max-width: fit-content;
+  border: none;
+  background-color:  #17181D;
+  border-radius: 28px;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: aliceblue;
+  cursor: pointer;
+  
+}
+
+.botao:hover {
+    transition:0.1s;
+    background-color:#13293d;
+    border-radius: 20px;
+    color: aliceblue;
 }

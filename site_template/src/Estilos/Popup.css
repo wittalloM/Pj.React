@@ -1,0 +1,28 @@
+.cont-popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background-color: #17181D;
+    border-radius: 22px;
+    font-size: 0.9rem;
+    font-weight: 800;
+
+}
+
+.cont-popup h2 {
+    color: aliceblue;
+}
+
+.botao-popup {
+    display: flex;
+    margin-top: 0.8rem;
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 0.4rem;
+    cursor: pointer;
+    background-color: #17181D;
+    
+}
+

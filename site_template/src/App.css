@@ -1,8 +1,12 @@
-
+App-cont{
+  display: flex;
+  flex-direction: column;
+  background-color: #141414;
+}
 
 .cabecalho {
   display: flex;
-  background-image: linear-gradient(#13293D, #247BA0);
+  background-image: linear-gradient(#13293D, #17181D);
   align-items: center;
   margin: -10px;
   justify-content: space-around;
@@ -11,7 +15,7 @@
 .Titulo {
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 2.9rem;
   font-family: 'Anek Bangla' sans-serif;
   padding: 0.8rem;
 
